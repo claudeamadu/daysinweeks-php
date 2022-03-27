@@ -1,12 +1,12 @@
 <?php
 /**
  * Days In Week
- * Licensed under: SEE LICENSE IN
+ * Licensed under: SEE LICENSE IN https://github.com/claudeamadu/daysinweeks-php/blob/main/LICENSE
  */
 /**
  * Days In Week
  * @author Claude Obiri Amadu
- * @license The MIT License (MIT)
+ * @license GNU General Public License v3.0
  */
 $y = 0;//Days of week
 $b = 7;//Days in a week
