@@ -34,7 +34,7 @@ Pass 0 for current month
 #### year:
 Year to get month from. (Default is current year)
 Pass 0 for current year
-#### year:
+#### format:
 format to display dates. (Default Y-m-d)
 
 ## Return value Example
