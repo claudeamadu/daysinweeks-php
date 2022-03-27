@@ -38,5 +38,4 @@ function daysinweek($maxDays,$month,$year,$format){
 	$parent['results'] = $data;
 	return $parent;
 }
-echo json_encode(daysinweek(2,0,0,"Y-m-d"));
 ?>
