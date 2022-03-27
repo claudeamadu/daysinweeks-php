@@ -36,3 +36,17 @@ Year to get month from. (Default is current year)
 Pass 0 for current year
 #### year:
 format to display dates. (Default Y-m-d)
+
+##Return value Example
+```
+{
+	"month": "03",
+	"year": "2022",
+	"results": {
+		"week 1": {
+			"day 1": "2022-03-01",
+			"day 2": "2022-03-02"
+		}
+	}
+}
+```
