@@ -3,12 +3,12 @@ PHP Scripts for getting days in a week and weeks in a month
 
 ## Installation & Usage
 #### 1. Clone in your project
-```
+```git
 $ git clone https://github.com/claudeamadu/daysinweeks-php.git
 ```
 
 #### 2. Include in your code(PHP)
-```
+```php
 <?php
 	include('daysinweeks-php/daysinweeks.php');
 ?>
