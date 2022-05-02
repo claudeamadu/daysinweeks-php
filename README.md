@@ -15,15 +15,15 @@ $ git clone https://github.com/claudeamadu/daysinweeks-php.git
 ```
 
 #### 3. Call function
-```
+```php
 <?php
-	echo json_encode(daysinweek(2,0,0,"Y-m-d"));
+	echo daysinweek(2,0,0,"Y-m-d");
 ?>
 ```
 
 ## Parameters
-```
-daysinweek(maxDays,month,year,format) //Returns an array
+```php
+daysinweek($maxDays,$month,$year,$format) //Returns an array
 ```
 #### maxDays:
 Total number of days to retrieve. (Default is total days in current month)
@@ -38,7 +38,7 @@ Pass 0 for current year
 format to display dates. (Default Y-m-d)
 
 ## Return value Example
-```
+```json
 {
 	"month": "05",
 	"year": "2022",
