@@ -16,15 +16,15 @@ function daysinweek($maxDays,$month,$year,$format){
 	if($month == 0){ $month=date('m'); }//current month
 	if($year == 0){ $year=date('Y'); }//current year
 	if($format == 0){ $format='Y-m-d'; }//current year
-	$parent = array();
+	$parent = [];
 	$parent['month'] = $month;
 	$parent['year'] = $year;
-	$data = array();
+	$data = [];
 	for ($days=0;$days<=($maxDays/7);$days++) {
 		$x++;
 		if($x <= $maxDays){
 			$y = $x*$b;
-			$week = array();
+			$week = [];
 			foreach(range($y-6,$y) as $i){
 				if($i <= $maxDays){
 					$day = $i;
@@ -36,6 +36,6 @@ function daysinweek($maxDays,$month,$year,$format){
 		}  
 	}
 	$parent['results'] = $data;
-	return $parent;
+	return json_encode($parent);
 }
 ?>

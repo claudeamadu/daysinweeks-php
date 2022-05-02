@@ -87,3 +87,21 @@ format to display dates. (Default Y-m-d)
 	}
 }
 ```
+
+
+## Use Example
+```php
+<?php
+$month = [];
+$month = json_decode(daysinweek(0,0,0,0), true);
+echo $month['month'].'<br/>';
+echo $month['year'].'<br/>';
+$weeks = $month['results'];
+foreach($weeks as $week => $dates){
+	$weekday = $dates;
+	foreach($weekday as $day => $date){
+		echo $date.'<br/>';
+	}
+}
+?>
+```
